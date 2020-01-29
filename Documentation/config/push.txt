@@ -1,9 +1,11 @@
 push.default::
 	Defines the action `git push` should take if no refspec is
-	explicitly given.  Different values are well-suited for
-	specific workflows; for instance, in a purely central workflow
-	(i.e. the fetch source is equal to the push destination),
-	`upstream` is probably what you want.  Possible values are:
+	neither explicitly (on the command-line) nor implicitly (via a
+	`remote.*.push` config option) given.  Different values are
+	well-suited for specific workflows; for instance, in a purely
+	central workflow (i.e. the fetch source is equal to the push
+	destination), `upstream` is probably what you want.  Possible
+	values are:
 +
 --
 
